@@ -1,0 +1,8 @@
+-- Membuat tabel utama yang final
+CREATE OR REPLACE TABLE `kimia_farma.analisa_tabel` AS
+SELECT * FROM `kimia_farma.final_calculations`;
+
+-- (Opsional) Menghapus tabel perantara agar bersih
+DROP TABLE IF EXISTS `kimia_farma.base_data`;
+DROP TABLE IF EXISTS `kimia_farma.calculated_margin`;
+DROP TABLE IF EXISTS `kimia_farma.final_calculations`;
