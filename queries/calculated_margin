@@ -1,0 +1,11 @@
+CREATE OR REPLACE TABLE `rakamin-kf-analytics-505311.kimia_farma.calculated_margin` AS
+SELECT 
+    *,
+    CASE 
+        WHEN actual_price <= 50000 THEN 0.10
+        WHEN actual_price > 50000 AND actual_price <= 100000 THEN 0.15
+        WHEN actual_price > 100000 AND actual_price <= 300000 THEN 0.20
+        WHEN actual_price > 300000 AND actual_price <= 500000 THEN 0.25
+        WHEN actual_price > 500000 THEN 0.30
+    END AS persentase_gross_laba
+FROM `rakamin-kf-analytics-505311.kimia_farma.base_data`;
