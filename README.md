@@ -31,3 +31,11 @@ Berikut adalah tangkapan layar proses pengecekan di BigQuery:
 Berikut adalah tangkapan layar proses pembuatan dashboard di Looker studio/ data studio :
 ![Pengecekan Transaksi](./assets/Dashboard.jpeg)
 * https://datastudio.google.com/reporting/1c662792-c6d6-4715-8c85-aeba5575d8b7
+
+## 💡 Key Insights & Kesimpulan Analisis
+* **Performa Penjualan:** Total transaksi mencapai 672.5K dengan total *sales* sebesar Rp321.17B dan *nett profit* sebesar Rp91.21B.
+* **Tren Tahunan:** Terdapat fluktuasi penjualan dari tahun ke tahun yang dapat dipantau langsung melalui interaktif filter di Looker Studio.
+* **Distribusi Geografis:** Pemetaan cabang menunjukkan persebaran performa transaksi dan profit di berbagai provinsi di Indonesia.
+
+## 👤 Author
+* **Fadli Nurrizky**
