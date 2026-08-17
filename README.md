@@ -28,4 +28,6 @@ Berikut adalah tangkapan layar proses pengecekan di BigQuery:
 ![Pengecekan Transaksi](./assets/kf_final_transaction.jpeg)
 
 ## 📊 Dashboard
+Berikut adalah tangkapan layar proses pembuatan dashboard di Looker studio/ data studio :
+![Pengecekan Transaksi](./assets/Dashboard.jpeg)
 * https://datastudio.google.com/reporting/1c662792-c6d6-4715-8c85-aeba5575d8b7
