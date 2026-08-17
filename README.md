@@ -14,4 +14,4 @@ Proyek analisis data untuk mengevaluasi performa bisnis PT Kimia Farma Tbk mengg
 * `analisa_tabel`: Master tabel gabungan.
 
 ## 📊 Dashboard
-* **[Link Looker Studio Anda]**
+* https://datastudio.google.com/reporting/1c662792-c6d6-4715-8c85-aeba5575d8b7
