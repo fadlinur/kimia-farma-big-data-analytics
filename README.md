@@ -30,7 +30,7 @@ Berikut adalah tangkapan layar proses pengecekan di BigQuery:
 ## 🛠️ Tahapan Pembuatan Tabel Analisa (Modular SQL approach)
 Proses transformasi data dilakukan secara bertahap untuk memastikan setiap kalkulasi teruji dengan baik:
 1. **`base_data`**: Menggabungkan tabel transaksi, cabang, dan produk.
-   ![Pengecekan Transaksi](./assets/Data%20Quality%20Validation/master_analysis.jpeg)
+   ![Pengecekan Transaksi](./assets/master_analysis.jpeg)
 2. **`calculated_margin`**: Menentukan persentase gross laba berdasarkan rentang harga produk.
    ![Pengecekan Transaksi](./assets/calculated_margin.jpeg)
 3. **`final_calculations`**: Menghitung metrik bisnis *Nett Sales* dan *Nett Profit*.
