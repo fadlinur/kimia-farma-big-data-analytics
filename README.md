@@ -41,6 +41,8 @@ Proses transformasi data dilakukan secara bertahap untuk memastikan setiap kalku
 ## 📊 Dashboard
 Berikut adalah tangkapan layar proses pembuatan dashboard di Looker studio/ data studio :
 ![Pengecekan Transaksi](./assets/Dashboard.jpeg)
+
+* Link Looker studio/ data studio :
 * https://datastudio.google.com/reporting/1c662792-c6d6-4715-8c85-aeba5575d8b7
 
 ## 💡 Key Insights & Kesimpulan Analisis
