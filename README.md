@@ -30,13 +30,13 @@ Berikut adalah tangkapan layar proses pengecekan di BigQuery:
 ## 🛠️ Tahapan Pembuatan Tabel Analisa (Modular SQL approach)
 Proses transformasi data dilakukan secara bertahap untuk memastikan setiap kalkulasi teruji dengan baik:
 1. **`base_data`**: Menggabungkan tabel transaksi, cabang, dan produk.
-2. ![Pengecekan Transaksi](./assets/master_analysis.jpeg)
-3. **`calculated_margin`**: Menentukan persentase gross laba berdasarkan rentang harga produk.
-4. ![Pengecekan Transaksi](./assets/calculated_margin.jpeg)
-5. **`final_calculations`**: Menghitung metrik bisnis *Nett Sales* dan *Nett Profit*.
-6. ![Pengecekan Transaksi](./assets/final_calculations.jpeg)
-7. **`analisa_tabel`**: Tabel master final yang siap dihubungkan ke Looker Studio, diikuti dengan pembersihan tabel perantara.
-8. ![Pengecekan Transaksi](./assets/analisa_tabel.jpeg)
+   ![Pengecekan Transaksi](./assets/master_analysis.jpeg)
+2. **`calculated_margin`**: Menentukan persentase gross laba berdasarkan rentang harga produk.
+   ![Pengecekan Transaksi](./assets/calculated_margin.jpeg)
+3. **`final_calculations`**: Menghitung metrik bisnis *Nett Sales* dan *Nett Profit*.
+   ![Pengecekan Transaksi](./assets/final_calculations.jpeg)
+4. **`analisa_tabel`**: Tabel master final yang siap dihubungkan ke Looker Studio, diikuti dengan pembersihan tabel perantara.
+   ![Pengecekan Transaksi](./assets/analisa_tabel.jpeg)
 
 ## 📊 Dashboard
 Berikut adalah tangkapan layar proses pembuatan dashboard di Looker studio/ data studio :
