@@ -23,6 +23,8 @@ Sebelum melakukan penggabungan tabel dan analisis lanjutan, dilakukan tahap *dat
 2. **Pengecekan Data Duplikat:**
    * Menggunakan fungsi `GROUP BY` pada kolom `transaction_id` dengan klausa `HAVING COUNT(*) > 1` untuk mendeteksi ID transaksi yang tercatat ganda.
    * **Hasil:** Query mengembalikan hasil kosong, yang membuktikan bahwa **seluruh data transaksi bersifat unik** dan bebas dari duplikasi.
-
+  
+Berikut adalah tangkapan layar proses pengecekan di BigQuery:
+![Pengecekan Data Validasi](images/kf_final_transaction.jpg)
 ## 📊 Dashboard
 * https://datastudio.google.com/reporting/1c662792-c6d6-4715-8c85-aeba5575d8b7
